@@ -21,7 +21,7 @@ const Home = () => {
 export default Home;
 
 const Container = styled.main`
-  padding: 3.75rem 6.25rem;
+  padding: 3.75rem 6.25rem 0;
 `;
 
 const Wrapper = styled.section``;
