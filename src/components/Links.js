@@ -61,7 +61,7 @@ export default Links;
 const Container = styled.main`
   display: flex;
   flex-direction: column;
-
+  margin-top: 1.5rem;
   gap: 1.5rem;
   a {
     padding: 1.5rem;
