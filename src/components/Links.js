@@ -62,7 +62,7 @@ const Container = styled.main`
   display: flex;
   flex-direction: column;
 
-  gap: 1rem;
+  gap: 1.5rem;
   a {
     padding: 1.5rem;
     border-radius: 5px;
