@@ -28,6 +28,7 @@ const Wrapper = styled.section`
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 50%;
+    cursor: pointer;
     object-fit: cover;
   }
 `;
