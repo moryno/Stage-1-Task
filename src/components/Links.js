@@ -69,6 +69,6 @@ const Container = styled.main`
     background-color: #eaecf0;
     text-align: center;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 500;
   }
 `;

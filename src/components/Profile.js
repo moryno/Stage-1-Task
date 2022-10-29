@@ -11,6 +11,9 @@ const Profile = () => {
       />
       <p id="twitter">Annette Black</p>
       <p id="slack">@AnneteBlack</p>
+      <div>
+        <i class="fas fa-share"></i>
+      </div>
     </Wrapper>
   );
 };
@@ -18,6 +21,7 @@ const Profile = () => {
 export default Profile;
 const Wrapper = styled.section`
   text-align: center;
+  position: relative;
   img {
     width: 5rem;
     height: 5rem;
@@ -31,5 +35,18 @@ const Wrapper = styled.section`
   }
   #slack {
     display: none;
+  }
+  div {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightgray;
+    border: 0.5px dotted lightgray;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 0;
+    right: 30%;
   }
 `;
